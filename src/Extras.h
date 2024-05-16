@@ -7,7 +7,7 @@
 #include <string.h>
 #include <errno.h>
 
-#https://github.com/cr-0w
+//https://github.com/cr-0w
 #define okay(MSG, ...) printf("[+] "          MSG "\n", ##__VA_ARGS__)
 #define info(MSG, ...) printf("[*] "          MSG "\n", ##__VA_ARGS__)
 #define warn(MSG, ...) fprintf(stderr, "[-] " MSG "\n", ##__VA_ARGS__)
